@@ -1,21 +1,35 @@
 # peaceokay
 This is a Markdown file.
 
-### What I've done: 
-> cd <project path>             <br />
-> git add <filename>            <br />
-> git commit -m "first commit"  <br />
-> git branch -M master          <br />
-> git remote add origin https://github.com/ffyrikz/peaceokay.git       <br />
-> git push -u origin master     <br />
+### What I've done:
+``` properties
+cd <project path>
 
-### What I've tried: 
-> git add <filename>            <br />
-> git commit -m "add I've done" <br />
-> git status                    <br />
-> git log                       <br />
-> git diff HEAD^ HEAD           <br />
+git config user.name "myname"
+git config user.email "myemail"
+git config --list --show-origin
+git config --global user.name "myglobalname"
+
+git add <filename>
+git commit -m "first commit"
+
+git branch -M master
+git remote add origin https://github.com/ffyrikz/peaceokay.git
+git remote -v
+
+git push -u origin master
+```
+
+### What I've tried:
+``` properties
+git add <filename>
+git commit -m "add I've done"
+git status
+git log
+git diff HEAD^ HEAD
+```
 
 ### What's new
-> Creat new file "file.txt"     <br />
-> Typesetting README file       <br />
+> - Creat new file "file_1_inHex"
+> 
+> - Typesetting README file
