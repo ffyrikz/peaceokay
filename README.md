@@ -5,10 +5,11 @@ This is a Markdown file.
 ``` properties
 cd <project path>
 
-git config user.name "myname"
-git config user.email "myemail"
+git config user.name "<myname>"
+git config user.email "<myemail>"
 git config --list --show-origin
-git config --global user.name "myglobalname"
+git config --global user.name "<myglobalname>"
+git config --global commit.template <myPath>
 
 git add <filename>
 git commit -m "first commit"
@@ -30,6 +31,6 @@ git diff HEAD^ HEAD
 ```
 
 ### What's new
-> - Creat new file "file_1_inHex"
+> - Creat new file "file_1_inHex_2", "file_2.txt", "file_3.txt"
 > 
-> - Typesetting README file
+> - Updating README file
