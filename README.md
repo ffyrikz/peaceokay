@@ -19,6 +19,8 @@ git remote add origin https://github.com/ffyrikz/peaceokay.git
 git remote -v
 
 git push -u origin master
+
+git pull https://github.com/ffyrikz/peaceokay.git
 ```
 
 ### What I've tried:
