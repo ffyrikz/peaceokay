@@ -1,3 +1,10 @@
+<style>
+    r { color: Red }
+    o { color: Orange }
+    lg { color: Lime }
+</style>
+
+
 # peaceokay
 This is a Markdown file.
 
@@ -34,6 +41,27 @@ git diff HEAD^ HEAD
 git checkout -b test2
 git branch
 git push -u origin test2
+```
+
+### Exercise 1
+> Log tree: <br />
+>       S - A - B <br />
+> $~~~~~~~~~~$ \\ - C - D 
+
+In this exercise, the HEAD of [<lg>master</lg>] points at B and branch [<r>branch_1</r>] for development. We would like to checkout between B and D but not to commit the half-done work, the command `git stash` come into use.
+``` properties
+git status
+git stash
+git status
+git stash list
+
+# Restore the modified content
+git stash list
+git stash apply
+git status
+git stash list
+git stash drop
+git stash list
 ```
 
 ### What's new
