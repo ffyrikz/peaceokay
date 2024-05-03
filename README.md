@@ -62,9 +62,13 @@ git status
 git stash list
 git stash drop
 git stash list
+
+# Remove all the untracked file in working directory
+echo "Hello" > file_2.txt
+git status -s
+git clean -d -n    # do a dry run
+git clean -d -f    # force to really do it
 ```
 
 ### What's new
-> - Delete nonneccessay file "file_1_inHex_2", "file_2.txt"
-> 
 > - Updating README file
