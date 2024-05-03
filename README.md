@@ -30,9 +30,13 @@ git commit -m "add I've done"
 git status
 git log
 git diff HEAD^ HEAD
+
+git checkout -b test2
+git branch
+git push -u origin test2
 ```
 
 ### What's new
-> - Creat new file "file_1_inHex_2", "file_2.txt", "file_3.txt"
+> - Delete nonneccessay file "file_1_inHex_2", "file_2.txt"
 > 
 > - Updating README file
