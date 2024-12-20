@@ -13,6 +13,7 @@ git config --global commit.template <myPath>
 
 git config --local core.editor vi
 git config --local core.editor notepad.exe
+git config --local core.editor "Code --wait"
 
 git add <filename>
 git commit -m "first commit"
