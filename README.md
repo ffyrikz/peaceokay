@@ -12,6 +12,7 @@ git config --global user.name "<myglobalname>"
 git config --global commit.template <myPath>
 
 git config --local core.editor vi
+git config --local core.editor '"C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2410.21.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe" -multiInst -nosession'
 
 git add <filename>
 git commit -m "first commit"
